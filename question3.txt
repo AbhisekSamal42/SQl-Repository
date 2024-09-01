@@ -1,0 +1,13 @@
+SQL> set pagesize 120;
+SQL> set linesize 120;
+SQL> select DNAME,LOC
+  2  from dept;
+
+DNAME          LOC                                                                                                      
+-------------- -------------                                                                                            
+ACCOUNTING     NEW YORK                                                                                                 
+RESEARCH       DALLAS                                                                                                   
+SALES          CHICAGO                                                                                                  
+OPERATIONS     BOSTON                                                                                                   
+
+SQL> spool off
