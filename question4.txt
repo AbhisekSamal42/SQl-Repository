@@ -1,0 +1,25 @@
+SQL> set pagesize 120;
+SQL> set linesize 120;
+SQL> select ename,job
+  2  from emp;
+
+ENAME      JOB                                                                                                          
+---------- ---------                                                                                                    
+SMITH      CLERK                                                                                                        
+ALLEN      SALESMAN                                                                                                     
+WARD       SALESMAN                                                                                                     
+JONES      MANAGER                                                                                                      
+MARTIN     SALESMAN                                                                                                     
+BLAKE      MANAGER                                                                                                      
+CLARK      MANAGER                                                                                                      
+SCOTT      ANALYST                                                                                                      
+KING       PRESIDENT                                                                                                    
+TURNER     SALESMAN                                                                                                     
+ADAMS      CLERK                                                                                                        
+JAMES      CLERK                                                                                                        
+FORD       ANALYST                                                                                                      
+MILLER     CLERK                                                                                                        
+
+14 rows selected.
+
+SQL> spool off
