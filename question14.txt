@@ -1,0 +1,12 @@
+SQL> select empno,ename,sal/2
+  2  from emp
+  3  where job='SALESMAN';
+
+     EMPNO ENAME           SAL/2                                                                                        
+---------- ---------- ----------                                                                                        
+      7499 ALLEN             800                                                                                        
+      7521 WARD              625                                                                                        
+      7654 MARTIN            625                                                                                        
+      7844 TURNER            750                                                                                        
+
+SQL> spool off
