@@ -1,0 +1,25 @@
+SQL> set pagesize 120
+SQL> set linesize 120
+SQL> select sal+500
+  2  from emp;
+
+   SAL+500                                                                                                              
+----------                                                                                                              
+      1300                                                                                                              
+      2100                                                                                                              
+      1750                                                                                                              
+      3475                                                                                                              
+      1750                                                                                                              
+      3350                                                                                                              
+      2950                                                                                                              
+      3500                                                                                                              
+      5500                                                                                                              
+      2000                                                                                                              
+      1600                                                                                                              
+      1450                                                                                                              
+      3500                                                                                                              
+      1800                                                                                                              
+
+14 rows selected.
+
+SQL> spool off
