@@ -1,0 +1,9 @@
+SQL> select*
+  2  from dept
+  3  where loc='NEW YORK';
+
+    DEPTNO DNAME          LOC                                                                                           
+---------- -------------- -------------                                                                                 
+        10 ACCOUNTING     NEW YORK                                                                                      
+
+SQL> spool off
