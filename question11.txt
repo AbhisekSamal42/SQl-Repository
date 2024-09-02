@@ -1,0 +1,23 @@
+SQL> select ename,mgr,job,sal
+  2  from emp
+  3  where sal<=3000;
+
+ENAME             MGR JOB              SAL                                                                              
+---------- ---------- --------- ----------                                                                              
+SMITH            7902 CLERK            800                                                                              
+ALLEN            7698 SALESMAN        1600                                                                              
+WARD             7698 SALESMAN        1250                                                                              
+JONES            7839 MANAGER         2975                                                                              
+MARTIN           7698 SALESMAN        1250                                                                              
+BLAKE            7839 MANAGER         2850                                                                              
+CLARK            7839 MANAGER         2450                                                                              
+SCOTT            7566 ANALYST         3000                                                                              
+TURNER           7698 SALESMAN        1500                                                                              
+ADAMS            7788 CLERK           1100                                                                              
+JAMES            7698 CLERK            950                                                                              
+FORD             7566 ANALYST         3000                                                                              
+MILLER           7782 CLERK           1300                                                                              
+
+13 rows selected.
+
+SQL> spool off
