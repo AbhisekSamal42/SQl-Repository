@@ -1,0 +1,21 @@
+SQL> select distinct sal
+  2  from emp;
+
+       SAL                                                                                                              
+----------                                                                                                              
+      2450                                                                                                              
+      5000                                                                                                              
+      1300                                                                                                              
+      1250                                                                                                              
+      2850                                                                                                              
+      2975                                                                                                              
+      1100                                                                                                              
+      3000                                                                                                              
+       800                                                                                                              
+      1600                                                                                                              
+      1500                                                                                                              
+       950                                                                                                              
+
+12 rows selected.
+
+SQL> spool off
