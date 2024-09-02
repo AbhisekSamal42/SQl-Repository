@@ -1,0 +1,12 @@
+SQL> select distinct job
+  2  from emp;
+
+JOB                                                                                                                     
+---------                                                                                                               
+CLERK                                                                                                                   
+SALESMAN                                                                                                                
+PRESIDENT                                                                                                               
+MANAGER                                                                                                                 
+ANALYST                                                                                                                 
+
+SQL> spool off;
