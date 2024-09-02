@@ -1,0 +1,9 @@
+SQL> select*
+  2  from dept
+  3  where dname='SALES';
+
+    DEPTNO DNAME          LOC                                                                                           
+---------- -------------- -------------                                                                                 
+        30 SALES          CHICAGO                                                                                       
+
+SQL> spool off
