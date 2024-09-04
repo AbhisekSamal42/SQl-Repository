@@ -1,0 +1,9 @@
+SQL> select empno,hiredate,sal
+  2  from emp
+  3  where ename='SMITH' and deptno=20;
+
+     EMPNO HIREDATE         SAL                                                                                         
+---------- --------- ----------                                                                                         
+      7369 17-DEC-80        800                                                                                         
+
+SQL> spool off
