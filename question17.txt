@@ -1,0 +1,12 @@
+SQL> set pagesize 120
+SQL> set linesize 120
+SQL> select*
+  2  from emp
+  3  where sal=3000;
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO                                   
+---------- ---------- --------- ---------- --------- ---------- ---------- ----------                                   
+      7788 SCOTT      ANALYST         7566 19-APR-87       3000                    20                                   
+      7902 FORD       ANALYST         7566 03-DEC-81       3000                    20                                   
+
+SQL> spool off
