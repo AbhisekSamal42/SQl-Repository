@@ -1,0 +1,9 @@
+SQL> select sal*6
+  2  from emp
+  3  where comm>1000;
+
+     SAL*6                                                                                                              
+----------                                                                                                              
+      7500                                                                                                              
+
+SQL> spool of
