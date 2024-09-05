@@ -1,0 +1,11 @@
+SQL> select*
+  2  from emp
+  3  where ename='SMITH' or ename='ALLEN' or ename='SCOTT';
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO                                   
+---------- ---------- --------- ---------- --------- ---------- ---------- ----------                                   
+      7369 SMITH      CLERK           7902 17-DEC-80        800                    20                                   
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30                                   
+      7788 SCOTT      ANALYST         7566 19-APR-87       3000                    20                                   
+
+SQL> spool off
