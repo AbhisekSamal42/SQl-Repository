@@ -1,0 +1,21 @@
+SQL> set pagesize 120
+SQL> set linesize 120
+SQL> select ename
+  2  from emp
+  3  where not deptno=20;
+
+ENAME                                                                                                                   
+----------                                                                                                              
+ALLEN                                                                                                                   
+WARD                                                                                                                    
+MARTIN                                                                                                                  
+BLAKE                                                                                                                   
+CLARK                                                                                                                   
+KING                                                                                                                    
+TURNER                                                                                                                  
+JAMES                                                                                                                   
+MILLER                                                                                                                  
+
+9 rows selected.
+
+SQL> spool off
