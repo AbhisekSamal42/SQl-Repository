@@ -1,0 +1,12 @@
+SQL> select ename
+  2  from emp
+  3  where job='SALESMAN' or job='HR';
+
+ENAME                                                                                                                   
+----------                                                                                                              
+ALLEN                                                                                                                   
+WARD                                                                                                                    
+MARTIN                                                                                                                  
+TURNER                                                                                                                  
+
+SQL> spool off
