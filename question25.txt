@@ -1,0 +1,26 @@
+SQL> select ename || sal
+  2  from emp;
+
+ENAME||SAL                                                                      
+--------------------------------------------------                              
+SMITH800                                                                        
+ALLEN1600                                                                       
+WARD1250                                                                        
+JONES2975                                                                       
+MARTIN1250                                                                      
+BLAKE2850                                                                       
+CLARK2450                                                                       
+SCOTT3000                                                                       
+KING5000                                                                        
+TURNER1500                                                                      
+ADAMS1100                                                                       
+
+ENAME||SAL                                                                      
+--------------------------------------------------                              
+JAMES950                                                                        
+FORD3000                                                                        
+MILLER1300                                                                      
+
+14 rows selected.
+
+SQL> spool off
