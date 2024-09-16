@@ -1,0 +1,10 @@
+SQL> select*
+  2  from emp
+  3  where ename like'A%';
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO                                   
+---------- ---------- --------- ---------- --------- ---------- ---------- ----------                                   
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30                                   
+      7876 ADAMS      CLERK           7788 23-MAY-87       1100                    20                                   
+
+SQL> spool off
