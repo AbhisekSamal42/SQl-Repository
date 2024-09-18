@@ -1,0 +1,11 @@
+SQL> set linesize 120
+SQL> set pagesize 120
+SQL> select*
+  2  from dept
+  3  where loc like '%A%A%';
+
+    DEPTNO DNAME          LOC                                                                                           
+---------- -------------- -------------                                                                                 
+        20 RESEARCH       DALLAS                                                                                        
+
+SQL> spool off;
